@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-import rhymes.views 
+import rhymes.views
 from django.conf.urls import url
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', rhymes.views.home, name="home"),
-    path('rhymes/', include('rhymes.urls')),
+    url(r'^$', rhymes.views.index, name="index"),
+    url(r'^accounts/', include('accounts.urls')),
+    url(r'^rhymes/', include('rhymes.urls')),
+    url(r'^parent/', rhymes.views.parent, name="parent"),
 ] 

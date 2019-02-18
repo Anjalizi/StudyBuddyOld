@@ -1,0 +1,30 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'css/signup.css' %}">
+<div class = "vertical-center">
+
+<div class="container" style="color: red, background-color:pink">
+<h1>Sign Up!</h1>
+
+{% if error %}
+{{ error }}
+{% endif %}
+
+
+<form method="POST" style="color: blue" action="{% url 'accounts:signup' %}">
+	{% csrf_token %}
+	<h3>Username</h3>
+	<input type="text" name="username">
+	<h3>Password</h3>
+	<input type="password" name="password1">
+	<h3>Confirm Password</h3>
+	<input type="password" name="password2">
+	<h3>Child's Name</h3>
+	<input type="text" name="c_name">
+	<h3>Child's Age</h3>
+	<input type="number" name="c_age"><br><br>
+	<input type="submit" value="Sign Up">
+</form>
+
+</div>
+</div>

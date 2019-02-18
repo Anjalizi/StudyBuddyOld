@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+	{% load static %}
 	<title>kickstart</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
 </head>
-<body>
+<body style="background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);" >
 
-<h1>Hello Kids</h1>
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<a class="btn btn-primary" href="rhymes" role="button">Link1</a>
-<a class="btn btn-primary" role="button" name="rhymebutton" onclick="jaadu()">Link2</a>
-<a class="btn btn-primary" href="rhymes" role="button">Link3</a>
-<a class="btn btn-primary" href="rhymes" role="button">Link4</a>
+<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+  <div class="container-fluid">
+    <div class="navbar-header"><p class="navbar-brand"  style="font-weight: bold; color: yellow">Study Buddy<span class="glyphicon glyphicon-education"></span></p> 
+    </div>
+    
+   
+    
+    <div class="btn-group">
+  <!-- <button type="button" href="/parent" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="border-width: 3px; border-color: yellow; color: yellow; font-size: 20px">
+    Parent
+  </button> -->
+  <a class="btn btn-warning" href="/parent" role="button">Parent</a>
+  <!-- <div class="dropdown-menu">
+    <a class="dropdown-item" href="/accounts/signup">SignUp</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="/accounts/login">Login</a>
+  </div> -->
+</div>
+  </div>
+</nav>
+<div class="container">
+<h2>I am Thomas! Your Study Buddy!</h2>
+<a class="btn btn-primary" href="/rhymes/comprehension" role="button">Thomas and Words</a>
+<a class="btn btn-primary" href="/rhymes/colourgames">Thomas and Colours</a>
 
+<a class="btn btn-primary" href="/rhymes/math" role="button">Thomas and Math</a>
+</div>
 </body>
 </html>

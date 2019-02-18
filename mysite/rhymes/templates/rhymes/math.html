@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+   <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Math_101</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+
+	<link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/math.css' %}">
+
+</head>
+<body >
+
+<section id="hero">
+      <div class="hero-container container">
+      <h1>Thomas and Math</h1>
+      <hr>
+      <h2 style="color: #f4c842">Let Us Have Some Fun With Numbers!<br>Perform The Follwing Operations. Best Of Luck <span class="glyphicon glyphicon-thumbs-up"></span></h2>
+      <div id="div1" style="font-weight: 900; font-size: 60px"></div>
+                <div class="app"> 
+                  <div class="input-single">
+                    <textarea id="note-textarea" type="reset" placeholder="Answer" rows="1"></textarea>
+                </div>   
+                <button id="start-record-btn" title="Start Recording">Speak</button>
+                <button  id="pause-record-btn" title="Pause Recording">Submit</button>
+               
+           
+
+        </div>
+        </div>
+  </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="{% static 'js/math.js' %}"></script>
+        <script src="{% static 'js/script.js' %}"></script>
+        <!-- Only used for the demos ads. Please ignore and remove. --> 
+      <!--   <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script> -->
+</body>
+</html>
