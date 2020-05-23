@@ -12,11 +12,11 @@ function include(arr, obj) {
 }
 
 function change(){
-one.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+one.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function changeone(){
-  one.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png";
+  one.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 one.addEventListener('click',function(){
@@ -33,11 +33,11 @@ one.addEventListener('click',function(){
 })
 
 function doo(){
-    two.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+    two.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function dotwo(){
-  two.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  two.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 two.addEventListener('click',function(){
@@ -54,11 +54,11 @@ two.addEventListener('click',function(){
 })
 
 function teen(){
-    three.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+    three.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function teentwo(){
-  three.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  three.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 three.addEventListener('click',function(){
@@ -75,11 +75,11 @@ three.addEventListener('click',function(){
 })
 
 function char(){
-  four.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+  four.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function chartwo(){
-  four.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  four.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 four.addEventListener('click',function(){
@@ -96,11 +96,11 @@ four.addEventListener('click',function(){
 })
 
 function paach(){
-  five.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+  five.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function paachtwo(){
-  five.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  five.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 five.addEventListener('click',function(){
@@ -117,11 +117,11 @@ five.addEventListener('click',function(){
 })
 
 function che(){
-  six.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+  six.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function chetwo(){
-  six.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  six.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 six.addEventListener('click',function(){
@@ -138,11 +138,11 @@ six.addEventListener('click',function(){
 })
 
 function saat(){
-  seven.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+  seven.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function saattwo(){
-    seven.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+    seven.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 seven.addEventListener('click',function(){
@@ -159,11 +159,11 @@ seven.addEventListener('click',function(){
 })
 
 function eig(){
-  eight.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+  eight.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function eigtwo(){
-  eight.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  eight.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 eight.addEventListener('click',function(){
@@ -180,11 +180,11 @@ eight.addEventListener('click',function(){
 })
 
 function naa(){
-  nine.src = "https://www.maxpixel.net/static/photo/1x/Correct-Okay-Mark-Right-Green-Sign-Symbol-Ticks-39830.png";
+  nine.src = "https://w7.pngwing.com/pngs/102/702/png-transparent-check-mark-computer-icons-green-tick-green-check-icon-miscellaneous-angle-rectangle.png";
 }
 
 function ninetwo(){
-  nine.src = "https://backgroundcheckall.com/wp-content/uploads/2017/12/wrong-cross-transparent-background-3.png"
+  nine.src = "https://p7.hiclipart.com/preview/621/587/778/no-symbol-computer-icons-clip-art-image-red-cross.jpg"
 }
 
 nine.addEventListener('click',function(){
